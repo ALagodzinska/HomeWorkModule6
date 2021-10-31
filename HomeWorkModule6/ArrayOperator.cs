@@ -8,23 +8,23 @@ namespace HomeWorkModule6
 {
     class ArrayOperator
     {        
-        private int[] Array1;
-        private int[] Array2;
+        private int[] array1;
+        private int[] array2;
         
-        public int[] array1 { get { return Array1; } }
-        public int[] array2 { get { return Array2; } }
+        public int[] Array1 { get { return array1; } }
+        public int[] Array2 { get { return array2; } }
 
         public ArrayOperator(int[] array1, int[] array2)
         {
-            Array1 = array1;
-            Array2 = array2;            
+            this.array1 = array1;
+            this.array2 = array2;            
         }
 
         public void fillArray()
         {
-            for (int i = 0; i < Array1.Length; i++)
+            for (int i = 0; i < array1.Length; i++)
             {
-                Array2[i] = Array1[i];
+                array2[i] = array1[i];
             }
         }
     }

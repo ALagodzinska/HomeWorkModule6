@@ -13,8 +13,8 @@ namespace HomeWorkModule6
 
             arrayOperator.fillArray();
 
-            Console.WriteLine($"Array1: {string.Join(", ", arrayOperator.array1)}\n" +
-                $"Populated Array2: {string.Join(", ", arrayOperator.array2)}");
+            Console.WriteLine($"Array1: {string.Join(", ", arrayOperator.Array1)}\n" +
+                $"Populated Array2: {string.Join(", ", arrayOperator.Array2)}");
 
             Console.ReadLine();            
         }
